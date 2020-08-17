@@ -126,19 +126,19 @@ $educations = array(
 $certifications = array(
   array(
     Title       =>  "Paramedic (FL)",
-    Expiration  =>  "12/2020",
+    Expiration  =>  "12/2020"
   ),
   array(
     Title       =>  "DOT Flight Certification",
-    Expiration  =>  "N/A",
+    Expiration  =>  "N/A"
   ),
   array(
     Title       =>  "AHA ACLS",
-    Expiration  =>  "06/2021",
+    Expiration  =>  "06/2021"
   ),
   array(
     Title       =>  "AHA BLS",
-    Expiration  =>  "09/2021",
+    Expiration  =>  "09/2021"
   )
 );
 
