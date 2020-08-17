@@ -2,14 +2,14 @@
 # Lets load some details!!
 $general        =   array(
     Author      =>  "James Zambon",
-    Subtitle    =>  "Flight Paramedic, Photographer, Programmer",
-    Tagline     =>  "I am a Flight Paramedic with 19+ years experience primarily in Critical Care and the most recent 5 years in both Fixed Wing / Air Ambulance and Commercial Medical Escort work. I have been instructors in ACLS, BLS",
+    Subtitle    =>  "Flight Paramedic, Photographer, Developer",
+    Tagline     =>  "I am a Flight Paramedic with 24+ years experience primarily in Critical Care and the most recent 5 years in both Fixed Wing / Air Ambulance and Commercial Medical Escort work. I have been instructors in ACLS, BLS",
 
     DOB         =>  "12 July 1974",
-    Address     =>  "500 Trinity Ln N #12206, St Pete, FL",
+    Address     =>  "1935 27th Ave N, St Pete, FL",
     Phone       =>  "727.430.9583",
     Email       =>  "&#074;&#097;&#109;&#101;&#115;&#064;&#090;&#097;&#109;&#098;&#111;&#110;&#046;&#117;&#115;",
-    
+
     Facebook    =>  "jazambon",
     Twitter     =>  "_thejames",
     LinkedIn    =>  "jazambon",
@@ -23,7 +23,7 @@ $jobs   =   array(
     Employer    =>  "Commercial Medical Escort: Private Contractor",
     StartDate   =>  "2008",
     EndDate     =>  " +",
-    
+
     Description =>  "Contractor to: <a href=\"http://www.parkviewairmedical.com\">Parkview Airmedical</a>, <a href=\"https://www.linkedin.com/pub/imc-meditrans-katie-byrne/6a/99/837\">IMC Meditrans</a>, and <a href=\"http://www.globalmedservices.com\">Global Med Services</a><br>
         Approximately 55 transports / year (450-500k miles) for patients of varying severity.",
   ),
@@ -41,7 +41,7 @@ $jobs   =   array(
     Employer    =>  "MATS / Tampa General &amp; USF College of Medicine",
     StartDate   =>  "2009",
     EndDate     =>  " &ndash; 14",
-    
+
     Description =>  "Instructing USF medical and nursing school students and Tampa General Hospital Staff in AHA BLS and ACLS courses.",
   ),
   array(
@@ -57,7 +57,7 @@ $jobs   =   array(
     Employer    =>  "Self Employed",
     StartDate   =>  "2006",
     EndDate     =>  " +",
-    
+
     Description =>  "Build fancy things for websites using Ruby, Ruby on Rails, PHP, Pearl, Javascript, HTML5, CSS and other web technologies as required."
   ),
   array(
@@ -74,7 +74,7 @@ $jobs   =   array(
     Employer    =>  "Sunstar Paramedics, Full-Time",
     StartDate   =>  "1998",
     EndDate     =>  " &ndash; 08",
-    
+
     Description =>  "<p>Operations Supervisor,
         NR-CCEMT-Paramedic<br>
         NAEMD certified and Communication Center trained, System Status Controller<br>
