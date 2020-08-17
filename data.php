@@ -126,7 +126,7 @@ $educations = array(
 $certifications = array(
   array(
     Title       =>  "Paramedic (FL)",
-    Expiration  =>  "12/2016",
+    Expiration  =>  "12/2020",
   ),
   array(
     Title       =>  "DOT Flight Certification",
@@ -134,11 +134,11 @@ $certifications = array(
   ),
   array(
     Title       =>  "AHA ACLS",
-    Expiration  =>  "06/2017",
+    Expiration  =>  "06/2021",
   ),
   array(
     Title       =>  "AHA BLS",
-    Expiration  =>  "09/2016",
+    Expiration  =>  "09/2021",
   )
 );
 
@@ -164,11 +164,11 @@ $Visas = array(
   ),
   array(
     Country     =>  "Nexus",
-    Expiration  =>  "July 2017"
+    Expiration  =>  "July 2023"
   ),
   array(
     Country     =>  "Global Enrty",
-    Expiration  =>  "July 2017"
+    Expiration  =>  "July 2023"
   ),
   array(
     Country     =>  "EU Passport (Italy)",
@@ -179,11 +179,11 @@ $Visas = array(
 $miscellaneous = array(
   array(
     Name        =>  "Delta",
-    Description =>  "360 / Diamond Medallion"
+    Description =>  "Diamond Medallion"
   ),
   array(
     Name        =>  "American Airlines",
-    Description =>  "Concierge Key / Executive Platinum"
+    Description =>  "Executive Platinum"
   ),
   array(
     Name        =>  "United Airlines",
