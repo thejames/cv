@@ -5,20 +5,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>CV | <?php echo $general[ Author ] ?></title>
 <!--960 Grid System ==============================================================-->
-<link rel="stylesheet" href="css/reset.css" />
-<link rel="stylesheet" href="css/960.css" />
+<link rel="stylesheet" href="/css/reset.css" />
+<link rel="stylesheet" href="/css/960.css" />
 <!--Fogli di Stile ==============================================================-->
-<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
 <!--JQUERY ==============================================================-->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <!--CONTACT FORM ==============================================================-->
-<script type="text/javascript" src="js/jquery_mail.js"></script>
+<script type="text/javascript" src="/js/jquery_mail.js"></script>
 <!--SCROLL BOTTOM ==============================================================-->
-<script type="text/javascript" src="js/scroll.js"></script>
+<script type="text/javascript" src="/js/scroll.js"></script>
 <!--SCROLL FOLLOW ==============================================================-->
-<script type="text/javascript" src="js/ui.core.js"></script>
-<script type="text/javascript" src="js/scroll-follow.js"></script>
+<script type="text/javascript" src="/js/ui.core.js"></script>
+<script type="text/javascript" src="/js/scroll-follow.js"></script>
 <script type="text/javascript">
         $( document ).ready( function ()
             {
@@ -27,7 +27,7 @@
         );
     </script>
 
-<!--COLORS ==============================================================-->    
+<!--COLORS ==============================================================-->
 <?php include("colors/silver_gray.php"); ?>  <!-- change your color here -->
 
 
@@ -59,40 +59,40 @@
     </ul>
 
 </div><div class="clear"></div>
-<!--=======================================================================================-->  
+<!--=======================================================================================-->
 
 
- 
 
-<!--===INTRODUCTION==============================================================================-->   
+
+<!--===INTRODUCTION==============================================================================-->
 <div id="title" class="grid_10 push_1 alpha omega section">
 
     <div class="grid_10 alpha omega section_title">
-        <h2>Personal Details</h2>       
+        <h2>Personal Details</h2>
     </div><div class="clear"></div>
-    
+
     <div id="title_sx" class="grid_4 alpha">
         <div id="photo"><img src="photo/avatar.png" alt="myphoto"/></div>
     </div>
-    
+
     <div id="title_center" class="grid_2 alpha">
     <ul>
     <li><h4>DOB</h4></li>
     <li><h4>Address</h4></li>
     <li><h4>Tel</h4></li>
-    <li><h4>Email</h4></li>				
+    <li><h4>Email</h4></li>
     </ul>
     </div>
-    
+
     <div id="title_dx" class="grid_4">
     <ul>
     <li><p class="p_big"><?php echo $general[ DOB ] ?></p></li>
     <li><p class="p_big"><?php echo $general[ Address ] ?></p></li>
     <li><p class="p_big"><?php echo $general[ Phone ] ?></p></li>
-    <li><p class="p_big"><?php echo $general[ Email ] ?></p></li>					
-    </ul> 
+    <li><p class="p_big"><?php echo $general[ Email ] ?></p></li>
+    </ul>
     </div><div class="clear"></div>
-    
+
     <div class="grid_10 alpha omega section_title">
     <div id="social_button"><h6 class="nav_down" id="nav_down"><a href="#" style="color: #fff;">Contact Me</a></h6></div>
     </div><div class="clear"></div>
@@ -100,11 +100,11 @@
 </div><div class="clear"></div>
 <!--=======================================================================================-->
 
-  
 
 
 
-<!--===WORK==============================================================================-->    
+
+<!--===WORK==============================================================================-->
   <div class="grid_10 push_1 alpha omega section">
 
       <div class="grid_10 alpha omega section_title">
@@ -127,7 +127,7 @@
   </div><div class="clear"></div>
 <!--=======================================================================================-->
 
-<!--===EDUCATION==============================================================================-->    
+<!--===EDUCATION==============================================================================-->
   <div class="grid_10 push_1 alpha omega section">
 
       <div class="grid_10 alpha omega section_title">
@@ -146,7 +146,7 @@
   </div><div class="clear"></div>
   <?php } end ?>
 
-<!--===CERTIFICATIONS==============================================================================-->    
+<!--===CERTIFICATIONS==============================================================================-->
 
   <div class="grid_10 alpha omega section_list">
       <ul>
@@ -162,13 +162,14 @@
   </div>
   <div class="clear"></div>
 
-<!--===LANGUAGES==============================================================================-->    
+<!--===LANGUAGES==============================================================================-->
 
   <div class="grid_10 alpha omega section_list">
       <ul>
         <li><h4>Languages:</h4></li>
         <li class="section_content">
           <p>
+            LANGUAGES
   <?php foreach ( $Languages as $language) if ( isset( $language )) { ?>
               <strong><?php echo $language[ Name ]; ?></strong> : <?php echo $language[ Expertise ] ?><br>
   <?php } end ?>
@@ -178,7 +179,7 @@
   </div>
   <div class="clear"></div>
 
-<!--===MISCELLANEOUS==============================================================================-->    
+<!--===MISCELLANEOUS==============================================================================-->
 
   <div class="grid_10 alpha omega section_list">
       <ul>
@@ -194,7 +195,7 @@
   </div>
   <div class="clear"></div>
 
-<!--===VISAS==============================================================================-->    
+<!--===VISAS==============================================================================-->
 
   <div class="grid_10 alpha omega section_list">
       <ul>
@@ -213,17 +214,17 @@
   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
 
   </div><div class="clear"></div>
-  <!--=======================================================================================--> 
+  <!--=======================================================================================-->
 
 
 
-<!--===CONTACT FORM==============================================================================-->    
+<!--===CONTACT FORM==============================================================================-->
 <div id="contact" class="grid_10 push_1 alpha omega section">
 
     <div class="grid_10 alpha omega section_title">
         <h2>Contact Me</h2>
     </div><div class="clear"></div>
-    
+
     <div class="grid_5 alpha contact_sx">
       <form id="formail" method="post" action="">
         <ul>
@@ -239,14 +240,14 @@
         <li><div class="border"><textarea id="messaggio" name="messaggio" rows="4" cols="20"></textarea></div></li>
       </ul>
     </div>
-    <div class="clear"></div>   
-    
+    <div class="clear"></div>
+
     <div class="grid_10 alpha omega">
       <div class="border"><div id="risposta"></div></div>
     </div><div class="clear"></div>
 
 </div><div class="clear"></div>
-<!--=======================================================================================--> 
+<!--=======================================================================================-->
 
 
 
@@ -283,7 +284,7 @@
 <script type="text/javascript">
             $(function() {
                 var $elem = $('#content');
-                
+
                 $('#nav_down').click(
                     function (e) {
                         $('html, body').animate({scrollTop: $elem.height()}, 800);
