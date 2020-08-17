@@ -2,7 +2,7 @@
 # Lets load some details!!
 $general        =   array(
     Author      =>  "James Zambon",
-    Subtitle    =>  "Flight Paramedic, Photographer, Developer",
+    Subtitle    =>  "Flight Paramedic, Developer, Photographer",
     Tagline     =>  "I am a Flight Paramedic with 19+ years experience primarily in Critical Care and the most recent 9 years in both Fixed Wing / Air Ambulance and Commercial Medical Escort work. I have been instructors in ACLS, and BLS.",
 
     DOB         =>  "12 July 1974",
@@ -127,19 +127,19 @@ $educations = array(
 $certifications = array(
   array(
     Title       =>  "Paramedic (FL)",
-    Expiration  =>  "12/2020",
+    Expiration  =>  "12/2020"
   ),
   array(
     Title       =>  "DOT Flight Certification",
-    Expiration  =>  "N/A",
+    Expiration  =>  "N/A"
   ),
   array(
     Title       =>  "AHA ACLS",
-    Expiration  =>  "12/2021",
+    Expiration  =>  "12/2021"
   ),
   array(
     Title       =>  "AHA BLS",
-    Expiration  =>  "12/2021",
+    Expiration  =>  "12/2021"
   )
 );
 
@@ -192,7 +192,7 @@ $visas = array(
 $miscellaneous = array(
   array(
     Name        =>  "Delta",
-    Description =>  "Platinum Medallion"
+    Description =>  "Diamond Medallion"
   ),
   array(
     Name        =>  "American Airlines",
